@@ -40,9 +40,9 @@ The dataset contains four contents:
 ## Quick Start
 
 <b> </b>
-    - <code> python ./Code/baseline_model./method_main.py</code>  Execute this command to train model with Review and Method as input.\\
-    - <code> python ./Code/baseline_model./main.py</code>  Execute this command to train model with Review and Feedback as input.\\
-    - <code> python ./Code/proposed_main.py</code>  Execute this command to train our proposed model.\\
+    - <code> python ./Code/baseline_model./method_main.py</code>  Execute this command to train model with Review and Method as input.<br>
+    - <code> python ./Code/baseline_model./main.py</code>  Execute this command to train model with Review and Feedback as input.<br>
+    - <code> python ./Code/proposed_main.py</code>  Execute this command to train our proposed model.<br>
 ## Main result
 
 - Results of originality prediction.
