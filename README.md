@@ -731,6 +731,7 @@ The dataset contains four contents:
  </tr>
 </table>
 </div>
+
 ## Case study
 
 we conduct a case study for different input and our method.
@@ -745,7 +746,10 @@ System environment is set up according to the following configuration:
 - pytorch 2.0.1
 - tqdm 4.65.0
 - numpy 1.24.1
+
 # Acknowledgement
+
 We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication. Aspect identifying tool what we used from Yuan et al [1] (https://github.com/neulab/ReviewAdvisor).
 # Reference
+
 [1] Yuan, W., Liu, P., Neubig, G.: Can we automate scientific reviewing? Journal of Artificial Intelligence Research 75, 171–212 (2022) <br>
