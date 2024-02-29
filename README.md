@@ -1,5 +1,7 @@
 # Automated Originality Assessment of academic Paper: A Collaborative Approach Integrating Human Expertise and Large Language Models
+
 ## Overview
+
 **Dataset and source code for paper "Automated Originality Assessment of academic Paper: A Collaborative Approach Integrating Human Expertise and Large Language Models".**
 This study proposes utilizing peer reviews and the methodology section of academic papers to assess the originality and decision-making of academic articles. The key contributions of this paper are as follows:
 - We proposed a novel approach for predicting the originality of scholarly papers and decision-making.
@@ -8,6 +10,7 @@ This study proposes utilizing peer reviews and the methodology section of academ
 - The thorough experiments show that our method is effective, and has achieved commendable results.
 
 ## Directory structure
+
 <pre>
 originality_predict                               Root directory
 ├── Code                                          Source code folder
@@ -28,17 +31,19 @@ originality_predict                               Root directory
 └── README.md
 </pre>
 ## Dataset Discription
+
 The dataset contains four contents: 
   - "novelty_sentence": Originality evaluation sentences by reviewers
   - "chat_review"： Feedback from ChatGPT
   - "nov_score":  Technical Novelty And Significance score
   - "decision":  Paper decsion
 ## Quick Start
-<b> 11</b>
+
     - <code> python ./Code/baseline_model./method_main.py</code>  Execute this command to train model with Review and Method as input.
     - <code> python ./Code/baseline_model./main.py</code>  Execute this command to train model with Review and Feedback as input.
     - <code> python ./Code/proposed_main.py</code>  Execute this command to train our proposed model.
 ## Main result
+
 - Results of originality prediction.
 |Models|	|Review & method|	|||Review & feedback|||
 ||	|F1|	|Accuracy|	|F1|	|Accuracy|
