@@ -3,6 +3,7 @@
 ## Overview
 
 **Model overview**
+We proposed a framework consisting of knowledge-guided fusion module and two paralleled sub-tasks. The two paralleled sub-tasks are originality prediction (OP) and decision prediction (DP) respectively.
 ![c67c171d9cee7be81fce78e3b5d73fa](https://github.com/njust-winchy/originality_predict/assets/108659065/587c1b33-469e-4d36-aa21-c460c7b68a5d)
 
 **Dataset and source code for paper "Automated Originality Assessment of academic Paper: A Collaborative Approach Integrating Human Expertise and Large Language Models".**
@@ -734,7 +735,7 @@ The dataset contains four contents:
 
 ## Case study
 
-we conduct a case study for different input and our method.
+We conduct a case study for different input and our method.
 ![2a6640a5868e6464eebc35e0cfed68b](https://github.com/njust-winchy/originality_predict/assets/108659065/623ebff2-d4d2-402e-9d71-463742fce431)
 
 ## Dependency packages
