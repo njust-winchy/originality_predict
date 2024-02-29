@@ -45,7 +45,7 @@ The dataset contains four contents:
     - <code> python ./Code/proposed_main.py</code>  Execute this command to train our proposed model.<br>
 ## Main result
 
-- Results of originality prediction.
+- Results of originality prediction.<br>
 |Models|	|Review & method|	|||Review & feedback|||
 ||	|F1|	|Accuracy|	|F1|	|Accuracy|
 |BERT|	|0.70|	|0.71|	|0.72|	|0.72|
