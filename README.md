@@ -46,15 +46,339 @@ The dataset contains four contents:
 ## Main result
 
 - Results of originality prediction.<br>
-|Models|	|Review & method|	|||Review & feedback|||
-||	|F1|	|Accuracy|	|F1|	|Accuracy|
-|BERT|	|0.70|	|0.71|	|0.72|	|0.72|
-|RoBERTa|	|0.68|	|0.67|	|0.71|	|0.71|
-|SciBERT|	|0.70|	|0.71|	|0.73|	|0.74|
-|XLNet|	|0.62|	|0.62|	|0.69|	|0.71|
-|AlBERT|	|0.52|	|0.54|	|0.64|	|0.64|
-|Ours-BERT|	|-|	|-|	|0.81|	|0.82|
-|Ours- RoBERTa|	|-|	|-|	|0.78|	|0.79|
-|Ours- SciBERT|	|-|	|-|	|0.83|	|0.84|
-|Ours- XLNet|	|-|	|-|	|0.78|	|0.79|
-|Ours- AlBERT|	|-|	|-|	|0.76|	|0.77|
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=184 rowspan=2 style='width:138.25pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Models</span></p>
+  </td>
+  <td width=184 colspan=2 style='width:138.25pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Review &amp;
+  method</span></p>
+  </td>
+  <td width=184 colspan=2 style='width:138.3pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Review &amp;
+  feedback</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>F1</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Accuracy</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>F1</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Accuracy</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>BERT</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.75</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.75</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.76</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.76</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>RoBERTa</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.71</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.71</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.73</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.74</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>SciBERT</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.77</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.77</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.78</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.78</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>XLNet</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.72</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.72</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.73</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.73</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>AlBERT</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.71</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.71</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.74</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.74</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Ours-BERT</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.78</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.78</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Ours- RoBERTa</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.76</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.76</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Ours- SciBERT</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.79</span></b></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.79</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Ours- XLNet</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.74</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.74</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=184 style='width:138.25pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Ours- AlBERT</span></p>
+  </td>
+  <td width=92 style='width:69.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>-</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.76</span></p>
+  </td>
+  <td width=92 style='width:69.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>0.76</span></p>
+  </td>
+ </tr>
+</table>
