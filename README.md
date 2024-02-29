@@ -40,7 +40,7 @@ The dataset contains four contents:
 ## Main result
 - Results of originality prediction.
 |Models|	|Review & method|	|||Review & feedback|||
-	|F1|	|Accuracy|	|F1|	|Accuracy|
+||	|F1|	|Accuracy|	|F1|	|Accuracy|
 |BERT|	|0.70|	|0.71|	|0.72|	|0.72|
 |RoBERTa|	|0.68|	|0.67|	|0.71|	|0.71|
 |SciBERT|	|0.70|	|0.71|	|0.73|	|0.74|
