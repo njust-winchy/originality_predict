@@ -1,6 +1,8 @@
 # Automated Originality Assessment of academic Paper: A Collaborative Approach Integrating Human Expertise and Large Language Models
 
 ## Overview
+**Model overview
+![c67c171d9cee7be81fce78e3b5d73fa](https://github.com/njust-winchy/originality_predict/assets/108659065/587c1b33-469e-4d36-aa21-c460c7b68a5d)
 
 **Dataset and source code for paper "Automated Originality Assessment of academic Paper: A Collaborative Approach Integrating Human Expertise and Large Language Models".**
 This study proposes utilizing peer reviews and the methodology section of academic papers to assess the originality and decision-making of academic articles. The key contributions of this paper are as follows:
@@ -387,7 +389,8 @@ The dataset contains four contents:
 </table>
 
 </div>
-- <b>Results of decsion prediction</b><br>
+
+- <b>Results of decision prediction</b><br>
 
 <div align=center>
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
