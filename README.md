@@ -731,8 +731,9 @@ The dataset contains four contents:
  </tr>
 </table>
 </div>
-## Case Study
+## Case study
 
+we conduct a case study for different input and our method.
 ![2a6640a5868e6464eebc35e0cfed68b](https://github.com/njust-winchy/originality_predict/assets/108659065/623ebff2-d4d2-402e-9d71-463742fce431)
 
 ## Dependency packages
