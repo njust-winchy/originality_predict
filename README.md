@@ -2,17 +2,17 @@
 
 ## Overview
 
-**Model overview**
-
-We proposed a framework consisting of knowledge-guided fusion module and two paralleled sub-tasks. The two paralleled sub-tasks are originality prediction (OP) and decision prediction (DP) respectively.
-![c67c171d9cee7be81fce78e3b5d73fa](https://github.com/njust-winchy/originality_predict/assets/108659065/587c1b33-469e-4d36-aa21-c460c7b68a5d)
-
 **Dataset and source code for paper "Automated Originality Assessment of academic Paper: A Collaborative Approach Integrating Human Expertise and Large Language Models".**
 This study proposes utilizing peer reviews and the methodology section of academic papers to assess the originality and decision-making of academic articles. The key contributions of this paper are as follows:
 - We proposed a novel approach for predicting the originality of scholarly papers and decision-making.
 - We explored a novel method to leverage the knowledge of both human and artificial intelligence in aiding deep learning models to achieve enhanced performance.
 - We designed a text-guided fusion module to guide and integrate the knowledge of both human and artificial intelligence, enabling effective utilization of the knowledge.
 - The thorough experiments show that our method is effective, and has achieved commendable results.
+
+## Model overview
+
+We proposed a framework consisting of knowledge-guided fusion module and two paralleled sub-tasks. The two paralleled sub-tasks are originality prediction (OP) and decision prediction (DP) respectively.
+![c67c171d9cee7be81fce78e3b5d73fa](https://github.com/njust-winchy/originality_predict/assets/108659065/587c1b33-469e-4d36-aa21-c460c7b68a5d)
 
 ## Directory structure
 
