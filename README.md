@@ -3,6 +3,7 @@
 ## Overview
 
 **Model overview**
+
 We proposed a framework consisting of knowledge-guided fusion module and two paralleled sub-tasks. The two paralleled sub-tasks are originality prediction (OP) and decision prediction (DP) respectively.
 ![c67c171d9cee7be81fce78e3b5d73fa](https://github.com/njust-winchy/originality_predict/assets/108659065/587c1b33-469e-4d36-aa21-c460c7b68a5d)
 
