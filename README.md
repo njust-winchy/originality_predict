@@ -45,7 +45,7 @@ The dataset contains four contents:
     - <code> python ./Code/proposed_main.py</code>  Execute this command to train our proposed model.<br>
 ## Main result
 
-- Results of originality prediction.<br>
+- <b>Results of originality prediction.</b><br>
 <div align=center>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
@@ -387,7 +387,9 @@ The dataset contains four contents:
 </table>
 
 </div>
-- Results of decsion prediction.<br>
+- <b>Results of decsion prediction</b><br>
+
+<div align=center>
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;border:none'>
  <tr>
@@ -724,4 +726,4 @@ The dataset contains four contents:
   </td>
  </tr>
 </table>
-
+</div>
