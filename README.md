@@ -1,7 +1,8 @@
 # Automated Originality Assessment of academic Paper: A Collaborative Approach Integrating Human Expertise and Large Language Models
 
 ## Overview
-**Model overview
+
+**Model overview**
 ![c67c171d9cee7be81fce78e3b5d73fa](https://github.com/njust-winchy/originality_predict/assets/108659065/587c1b33-469e-4d36-aa21-c460c7b68a5d)
 
 **Dataset and source code for paper "Automated Originality Assessment of academic Paper: A Collaborative Approach Integrating Human Expertise and Large Language Models".**
@@ -730,3 +731,20 @@ The dataset contains four contents:
  </tr>
 </table>
 </div>
+## Case Study
+
+![2a6640a5868e6464eebc35e0cfed68b](https://github.com/njust-winchy/originality_predict/assets/108659065/623ebff2-d4d2-402e-9d71-463742fce431)
+
+## Dependency packages
+System environment is set up according to the following configuration:
+- transformers==4.16.2
+- nltk==3.6.7
+- matplotlib==3.5.1
+- scikit-learn==1.1.3
+- pytorch 2.0.1
+- tqdm 4.65.0
+- numpy 1.24.1
+# Acknowledgement
+We thank the openreview.net team for the commitment to promoting transparency and openness in scientific communication. Aspect identifying tool what we used from Yuan et al [1] (https://github.com/neulab/ReviewAdvisor).
+# Reference
+[1] Yuan, W., Liu, P., Neubig, G.: Can we automate scientific reviewing? Journal of Artificial Intelligence Research 75, 171–212 (2022) <br>
